@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Orçamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CLASSIC VIAGENS E TURISMO</h1>
+        <a href="principal.html">
+            Página Inicial
+        </a>
+        <a href="cotacao.html">
+            Solicitar Orçamento
+        </a>
+        <a href="pacote.html">
+            Pacotes
+        </a>    
+        <a href="redes.html">
+            Contatos
+        </a>
+    </header>
+
+    <div class="corpo">
+
+        <h2>Solicitação de Orçamento</h2>
+
+        <form>
+            <div class="form-header">
+                <div class="form-header-field">
+                    <label for="form-nome" class="form-label-title">Nome:</label>
+                    <input type="text" name="nome" id="form-nome" class="form-field">
+                </div>
+
+                <div class="form-header-field">
+                    <label for="form-telefone" class="form-label-title">Contato:</label>
+                    <input type="text" name="telefone" id="form-telefone" class="form-field">
+                </div>
+            </div>
+    
+            <hr>
+            
+            <div class="form-corpo">
+                <label for="form-tipo" class="form-label-title">Sua viagem é:</label>
+                <select id="form-tipo">
+                    <option>Nacional</option>
+                    <option>Internacional</option>        
+                </select>
+                
+                <br><br>
+        
+                <label for="form-destino" class="form-label-title">Qual o destino da sua viagem?</label>
+                <input type="text" name="destino?" id="form-destino" class="form-field">
+        
+                <br>
+        
+                <h4>Quantas pessoas vão na viagem?</h4>
+                <div class="select-quantidade">
+                    <label for="form-adulto" class="form-label-select">Adulto</label>
+                    <select id="form-adulto">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </select>
+                </div>
+
+                <div class="select-quantidade">
+                    <label for="form-crianca" class="form-label-select">Criança</label>
+                    <select id="form-crianca">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </select>
+                </div>
+
+                <div class="select-quantidade">
+                    <label for="form-bebe" class="form-label-select">Bebê</label>
+                    <select id="form-bebe">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </select>
+                </div>
+        
+                <h4>Qual produro deseja?</h4>
+                <input type="checkbox" name="detalhes" id="checkbox-aereo">
+                <label for="checkbox-aereo">Aéreo</label><br>
+                <input type="checkbox" name="detalhes" id="checkbox-hospedagem">
+                <label for="checkbox-hospedagem">Hospedagem</label><br>
+                <input type="checkbox" name="detalhes" id="checkbox-translado">
+                <label for="checkbox-translado">Translado</label><br>
+                <input type="checkbox" name="detalhes" id="checkbox-aluguel">
+                <label for="checkbox-aluguel">Aluguel de Carro</label><br>
+                <input type="checkbox" name="detalhes" id="checkbox-seguro">
+                <label for="checkbox-seguro">Seguro Viagem</label><br>
+                <input type="checkbox" name="detalhes" id="checkbox-cruzeiro">
+                <label for="checkbox-cruzeiro">Cruzeiro</label><br>
+                <input type="checkbox" name="detalhes" id="checkbox-chip">
+                <label for="checkbox-chip">Chip Internacional</label><br>
+                <input type="checkbox" name="detalhes" id="checkbox-roteiros">
+                <label for="checkbox-roteiros">Roteiros</label><br>
+                <input type="checkbox" name="detalhes" id="checkbox-ingressos">
+                <label for="checkbox-ingressos">Ingressos de Parques</label><br>
+            </div>
+    
+            <input type="button" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>
